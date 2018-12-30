@@ -1,0 +1,12 @@
+2018-12-28T15:49:43+00:00 CRITICAL Uncaught Error: Cannot unset string offsets in C:\wamp64\www\LeRayzo\wp-content\plugins\bp-profile-search\bps-admin.php:243
+Stack trace:
+#0 C:\wamp64\www\LeRayzo\wp-includes\class-wp-hook.php(288): bps_update_meta(6773, Object(WP_Post))
+#1 C:\wamp64\www\LeRayzo\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\wamp64\www\LeRayzo\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\LeRayzo\wp-includes\post.php(3747): do_action('save_post', 6773, Object(WP_Post), false)
+#4 C:\wamp64\www\LeRayzo\wp-content\themes\kleo\lib\importer\wordpress-importer.php(708): wp_insert_post(Array, true)
+#5 C:\wamp64\www\LeRayzo\wp-content\themes\kleo\lib\importer\wordpress-importer.php(115): WP_Import->process_posts()
+#6 C:\wamp64\www\LeRayzo\wp-content\themes\kleo\lib\importer\import.php(1170): WP_Import->import('C:\\wamp64\\www\\L...')
+#7 C:\wamp64\www\LeRayzo\wp-content\themes\kleo\lib\importer\import.php(873): kleoImport->import_content('pages/home-get-...', true)
+#8 C:\wamp64\w dans C:\wamp64\www\LeRayzo\wp-content\plugins\bp-profile-search\bps-admin.php à la ligne 243
+
